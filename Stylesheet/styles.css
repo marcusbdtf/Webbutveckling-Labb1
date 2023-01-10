@@ -3,35 +3,102 @@ html{
 }
 body{
     text-align: center;
-    background-color: #FFFCF2;
+    background-color: #86E5FF;
+    font-family: "Montserrat";
+    width: 100%;
+    margin: 8rem 0 0 0;
 }
 
-.header{
-    
+.left-tree{
+    position: absolute;
+    width: 25%;
+    left: 20px;
+    bottom: 100px;
+}
+.right-tree{
+    position: absolute;
+    width: 25%;
+    right: 20px;
+    bottom: 100px;
 }
 
+#music-body{
+    background-color: #535353;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #277BC0 ;
+}
+.hr-main{
+    border: 2px solid #fff;
+    width: 50%;
+    border-radius: 33%;
+    margin-bottom: 5%
+}
 .MainTitle{
-    color: #CCC5B9;
+    color: #FFB200;
     text-shadow: 2px 2px 5px #403D39;
     background: linear-gradient();
-    font-family: "Luxirous Roman", 'Times New Roman', Times, serif;
+    font-family: "Merriweather", sans-serif;
     font-size: 4em;
     font-variant:small-caps;
 
 }
-
 .sunshine-subtitle{
-    background: linear-gradient(#fff997,#f7dc2f,#ff8c00 );
+    background: linear-gradient(#FFB200,#f7dc2f,#ff8c00 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Luxirous Roman", 'Times New Roman', Times, serif;
+    font-family: "Merriweather", sans-serif;
     font-size: 3em;
+    font-style: italic;
 }
-.middle-container-scroll{
+/*Section*/
+section{
+    background-color: #FFCB42;
+    margin: 0 25% 2rem 25%;
+    padding: 5px 35px;
+    align-content: center;
+    border-radius: 2.5%; 
+    font-weight: bold;
+}
+.section-title{
+    font-family: "Merriweather", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0px 10px 0;
+}
+
+/*ARTICLE CSS*/
+article{
+    background-color: #FFCB42;
+    margin: 0 25% 3% 25%;
+    padding: 5px 35px;
+    align-content: center;
+    border-radius: 2.5%;
+}
+.article-title{
+    font-family: "Merriweather", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0px 10px 0;
+}
+.article-paragraph{
+    text-align: center;
+    font-weight: bold;
     
 }
+.rule-list{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+    list-style: none;
+}
 
 
+/*music.html*/
 .wrapped-table{
     /*Spotify-themed table*/
     text-align: left;
@@ -56,4 +123,63 @@ body{
     border: solid #191414;
     margin-bottom: 5px;
     padding-top: 4px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #277BC0;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/*NAV*/
+.group {
+    display: flex;
+    align-items: center;  
+}
+
+#logo{
+    margin-left: 10rem;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-right: 125px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 0.0em;
+}
+
+header ul li a:hover {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: #FFB200;
+    
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
 }
