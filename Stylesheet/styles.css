@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-align: center;
+    background-color: #FFFCF2;
+}
+
+.header{
+    
+}
+
+.MainTitle{
+    color: #CCC5B9;
+    text-shadow: 2px 2px 5px #403D39;
+    background: linear-gradient();
+    font-family: "Luxirous Roman", 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-variant:small-caps;
+
+}
+
+.sunshine-subtitle{
+    background: linear-gradient(#fff997,#f7dc2f,#ff8c00 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Luxirous Roman", 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+.middle-container-scroll{
+    
+}
+
+
+.wrapped-table{
+    /*Spotify-themed table*/
+    text-align: left;
+    border: 4px solid #191414;
+    height: 400px;
+    font-family: "Merriweather", sans-serif ; 
+    /*If Merriweather doesnt exist default to sans serif*/
+    font-size: 1.2em;
+    background-color: #1db954;
+    color: white;
+    border-radius: 25px;
+    padding-left: 34px;
+}
+
+.wrapped-caption{
+    /*Heading for Table*/
+    font-size: 1.5em;
+    font-weight: 800;
+    height: 45px;
+    background-color: #1db954;
+    border-radius: 25px;
+    border: solid #191414;
+    margin-bottom: 5px;
+    padding-top: 4px;
+}
