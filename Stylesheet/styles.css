@@ -23,7 +23,10 @@ body{
 }
 
 #music-body{
+    background: url(/images/speakers.png);
     background-color: #535353;
+    background-size: 400px;
+    background-position: 5px;
 }
 
 .navbar{
@@ -45,7 +48,6 @@ body{
     font-family: "Merriweather", sans-serif;
     font-size: 4em;
     font-variant:small-caps;
-
 }
 .sunshine-subtitle{
     background: linear-gradient(#FFB200,#f7dc2f,#ff8c00 );
@@ -99,6 +101,43 @@ article{
 
 
 /*music.html*/
+
+.music-h1{
+    color: #fff;
+    text-shadow: 2px 2px 5px #403D39;
+    background: linear-gradient();
+    font-family: "Merriweather", sans-serif;
+    font-size: 4em;
+    font-variant:small-caps;
+}
+
+.navigation-music li a:hover {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1.5em;
+    background-color: #191414;
+    
+}
+
+.music-container{
+    margin:auto;
+    width: 25%;
+}
+
+.open-music {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #1db954;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
 .wrapped-table{
     /*Spotify-themed table*/
     text-align: left;
@@ -123,6 +162,9 @@ article{
     border: solid #191414;
     margin-bottom: 5px;
     padding-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 header {
@@ -147,7 +189,7 @@ header {
 }
 
 #logo{
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 header ul {
@@ -182,4 +224,47 @@ header ul li a:hover {
 nav ul li a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+
+.music-footer{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+.vat-footer{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10rem;
+}
+footer{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.vat-title{
+    color: #FFB200;
+    text-shadow: 2px 2px 5px #403D39;
+    background: linear-gradient();
+    font-family: "Merriweather", sans-serif;
+    font-size: 4em;
+    font-variant:small-caps;
+}
+
+button{
+    margin-top: 2rem;
+    background-color: #FFB200;
+    border: none;
+    border-radius: 10%;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    font-family: 'Merriweather';
+    font-weight: bold;
+}
+
+#amount{
+    border:#FFB200 3px solid;
 }
