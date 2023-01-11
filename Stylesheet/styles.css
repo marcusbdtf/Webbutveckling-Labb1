@@ -9,6 +9,10 @@ body{
     margin: 8rem 0 0 0;
 }
 
+span{
+    font-style: italic;
+}
+
 .left-tree{
     position: absolute;
     width: 25%;
